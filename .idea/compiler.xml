@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="JDBC" />
+        <module name="Kafka010" />
+        <module name="SparkHBase" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java" target="1.5" />
+      <module name="Kafka010Streaming" target="1.8" />
+      <module name="Kafka080Streaming" target="1.8" />
+      <module name="Spark1.6" target="1.8" />
+      <module name="Spark2" target="1.8" />
+      <module name="Spark20" target="1.8" />
+      <module name="SparkPhoenix" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
